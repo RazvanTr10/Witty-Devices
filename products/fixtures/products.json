@@ -1,0 +1,351 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "slb01",
+            "name": "Smart Light Bulb A",
+            "description": "Vintage-style filament bulb design with smart capabilities. Adjustable color temperature ranging from warm to cool white. Schedule and automation features for setting timers and routines. Energy-efficient design with long lifespan. Compatible with major smart home platforms like Alexa, Google Assistant, and HomeKit.",
+            "price": 19.99,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "bulb-a.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "slb02",
+            "name": "Smart Light Bulb B",
+            "description": "RGB color-changing bulb with millions of color options to create ambiance. Music sync feature for dynamic lighting effects to match your music. Geofencing capabilities to automatically turn lights on/off based on your location. Grouping functionality for controlling multiple bulbs simultaneously. Energy monitoring feature to track power consumption.",
+            "price": 29.99,
+            "category": 1,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "bulb-b.webp"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "slb03",
+            "name": "Smart Light Bulb C",
+            "description": "Tunable white LED bulb offering various shades of white light. Sunrise/sunset simulation to mimic natural lighting patterns. Motion sensor integration for hands-free control. Compatibility with IFTTT for advanced automation scenarios. Remote access and control from anywhere via smartphone app.",
+            "price": 24.99,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "bulb-c.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "slb04",
+            "name": "Smart Light Bulb D",
+            "description": "Voice control compatibility with popular voice assistants. Scene modes for preset lighting moods such as relaxation, focus, and party. Sleep/wake cycle optimization to promote better sleep patterns. Enhanced security features like vacation mode to simulate occupancy.",
+            "price": 34.99,
+            "category": 1,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "bulb-d.webp"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "scc01",
+            "name": "Smart CCTV Camera A",
+            "description": "Full HD resolution with wide-angle lens for comprehensive coverage. Two-way audio communication for remote interaction. Advanced motion detection with customizable motion zones. Night vision capability for clear monitoring in low-light conditions. Cloud storage for video recordings and playback.",
+            "price": 99.99,
+            "category": 2,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "camera-a.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "scc02",
+            "name": "Smart CCTV Camera B",
+            "description": "4K Ultra HD resolution for crystal-clear video quality. AI-powered person detection to reduce false alerts. Pan, tilt, and zoom functionality for flexible viewing options. Built-in siren and strobe light for deterrence and security. Local storage options with microSD card or NAS compatibility.",
+            "price": 199.99,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "camera-b.jpeg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "scc03",
+            "name": "Smart CCTV Camera C",
+            "description": "Weatherproof design suitable for indoor and outdoor use. Smart tracking feature to follow motion and capture activity. Integration with smart home ecosystems for seamless automation. Mobile app with real-time notifications and remote access. Easy DIY installation with magnetic mount or adjustable bracket.",
+            "price": 149.99,
+            "category": 2,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "camera-c.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "scc04",
+            "name": "Smart CCTV Camera D",
+            "description": "360-degree coverage with panoramic view capability. AI facial recognition for identifying familiar faces. Privacy features like customizable privacy zones and camera shutter. Dual-band Wi-Fi for stable and reliable connectivity. Continuous recording with optional cloud storage subscription.",
+            "price": 179.99,
+            "category": 2,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "camera-d.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "sdb01",
+            "name": "Smart Doorbell A",
+            "description": "HD video with night vision for clear visibility day and night. Two-way audio for real-time communication with visitors. Motion detection with customizable motion zones. Cloud storage for event recording and playback. Easy installation with existing doorbell wiring.",
+            "price": 129.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "doorbell-a.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "sdb02",
+            "name": "Smart Doorbell B",
+            "description": "4K video resolution for ultra-clear video. Facial recognition technology for identifying familiar faces. Advanced motion detection with person, package, and vehicle alerts. Pre-recorded quick responses for instant replies. Compatibility with major smart home platforms.",
+            "price": 249.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "doorbell-b.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "sdb03",
+            "name": "Smart Doorbell C",
+            "description": "Battery-powered for wire-free installation. 1080p HD video with a wide field of view. Customizable chimes and notifications. Weather-resistant design for outdoor use. Integration with smart locks for seamless entry management.",
+            "price": 199.99,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "doorbell-c.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "ssp01",
+            "name": "Smart Speaker A",
+            "description": "High-quality sound with rich bass and clear treble. Built-in voice assistant for hands-free control. Multi-room audio support for synchronized playback. Integration with smart home devices for seamless automation. Compact design with modern aesthetics.",
+            "price": 99.99,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "speaker-a.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "ssp02",
+            "name": "Smart Speaker B",
+            "description": "Premium audio quality with adaptive sound technology. Voice assistant with natural language processing. Touch controls and LED indicators for easy interaction. Bluetooth and Wi-Fi connectivity options. Personalized responses based on user profiles.",
+            "price": 149.99,
+            "category": 4,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "speaker-b.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "ssp03",
+            "name": "Smart Speaker C",
+            "description": "360-degree sound for immersive audio experience. Voice control for music, news, weather, and smart home devices. Customizable equalizer settings via app. Far-field voice recognition for accurate commands. Integration with streaming services like Spotify and Apple Music.","price": 129.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "speaker-c.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "ssp04",
+            "name": "Smart Speaker D",
+            "description": "Portable design with built-in battery for on-the-go use. High-fidelity sound with deep bass and crisp highs. Water-resistant build for outdoor usage. Voice assistant with support for multiple languages. Seamless pairing with other smart speakers for stereo sound.",
+            "price": 179.99,
+            "category": 4,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "speaker-d.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "sps01",
+            "name": "Smart Plug Socket A",
+            "description": "Remote control via smartphone app. Energy monitoring to track power consumption. Voice control compatibility with Alexa and Google Assistant. Schedule and timer functions for automation. Compact design that doesn’t block adjacent outlets.",
+            "price": 24.99,
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "plug-a.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "sps02",
+            "name": "Smart Plug Socket B",
+            "description": "Wi-Fi enabled for easy connectivity. Overload protection for enhanced safety. Integration with IFTTT for advanced automation. Grouping functionality for controlling multiple plugs simultaneously. Energy-saving mode to reduce power usage when devices are off.",
+            "price": 29.99,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "plug-b.png"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "sps03",
+            "name": "Smart Plug Socket C",
+            "description": "Remote control and monitoring via smartphone app. Schedule, timer, and countdown functions. Voice control compatibility with Alexa, Google Assistant, and Apple HomeKit. Compact design to save space. Energy monitoring and reports for power usage tracking.",
+            "price": 24.99,
+            "category": 5,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "plug-c.webp"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "sht01",
+            "name": "Smart Heating Thermostat A",
+            "description": "Remote control via smartphone app or voice commands. Programmable schedules for efficient heating management. Energy usage reports to track and optimize consumption. Geofencing feature to adjust heating based on your location. Integration with smart home systems like Alexa and Google Assistant.",
+            "price": 129.99,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "thermostat-a.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "sht02",
+            "name": "Smart Heating Thermostat B",
+            "description": "Self-learning algorithm to optimize heating schedules. Remote access and control from anywhere. Energy-saving mode to reduce heating costs. Weather adaptation to adjust heating based on outdoor conditions. Compatibility with major smart home platforms.",
+            "price": 179.99,
+            "category": 6,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "thermostat-b.webp"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "sht03",
+            "name": "Smart Heating Thermostat C",
+            "description": "Zonal heating control for customized comfort in different rooms. Intuitive touchscreen interface for easy control. Energy usage reports and insights. Integration with smart home systems for seamless automation. Remote control via app or voice assistant.",
+            "price": 199.99,
+            "category": 6,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "thermostat-c.webp"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "sht04",
+            "name": "Smart Heating Thermostat D",
+            "description": "Smart scheduling with learning capabilities. Remote control and monitoring via app. Integration with other smart devices for holistic home automation. Detailed energy reports to optimize usage. Voice control compatibility with Alexa, Google Assistant, and Siri.",
+            "price": 159.99,
+            "category": 6,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "thermostat-d.webp"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "sbm01",
+            "name": "Smart Baby Monitor A",
+            "description": "HD video and audio streaming with night vision. Two-way communication for soothing your baby remotely. Temperature and humidity monitoring for optimal nursery conditions. Motion and sound detection with instant alerts. Integration with smart home systems for automation.",
+            "price": 129.99,
+            "category": 7,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "babymonitor-a.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "sbm02",
+            "name": "Smart Baby Monitor B",
+            "description": "4K Ultra HD video quality for crystal-clear streaming. Advanced motion and sound detection with customizable sensitivity. Two-way talk for remote communication. Integration with smart home systems and voice assistants. Temperature, humidity, and air quality monitoring.",
+            "price": 199.99,
+            "category": 7,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "babymonitor-b.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "sbm03",
+            "name": "Smart Baby Monitor C",
+            "description": "Pan, tilt, and zoom functionality for flexible viewing. HD video with night vision for clear monitoring. Two-way audio for soothing your baby. Mobile app with real-time alerts and remote access. Integration with smart home ecosystems for automation.",
+            "price": 149.99,
+            "category": 7,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "babymonitor-c.jpg"
+        }
+    }
+]
