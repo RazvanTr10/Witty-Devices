@@ -13,25 +13,25 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="security-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Smart Security
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Smart Baby Monitoring</a>
-                <a href="" class="dropdown-item">Smart Doorbells</a>
-                <a href="" class="dropdown-item">Smart CCTV</a>
+            <div class="dropdown-menu border-0" aria-labelledby="security-link">
+                <a href="{% url 'products' %}?category=smartBabyMonitors" class="dropdown-item">Smart Baby Monitoring</a>
+                <a href="{% url 'products' %}?category=smartDoorbells" class="dropdown-item">Smart Doorbells</a>
+                <a href="{% url 'products' %}?category=smartCCTVCameras" class="dropdown-item">Smart CCTV</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="hometech-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Smart Home Tech
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Smart Heating</a>
-                <a href="" class="dropdown-item">Smart Lighting</a>
-                <a href="" class="dropdown-item">Smart Plugs</a>
-                <a href="" class="dropdown-item">Smart Speakers</a>
+            <div class="dropdown-menu border-0" aria-labelledby="hometech-link">
+                <a href="{% url 'products' %}?category=smartHeating" class="dropdown-item">Smart Heating</a>
+                <a href="{% url 'products' %}?category=smartLighting" class="dropdown-item">Smart Lighting</a>
+                <a href="{% url 'products' %}?category=smartSockets" class="dropdown-item">Smart Plugs</a>
+                <a href="{% url 'products' %}?category=smartSpeakers" class="dropdown-item">Smart Speakers</a>
             </div>
         </li>
 
