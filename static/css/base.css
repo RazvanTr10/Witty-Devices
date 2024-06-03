@@ -96,7 +96,7 @@ body {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* Pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
@@ -104,5 +104,21 @@ body {
 
     body {
         height: calc(100vh - 116px);
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .text-sm {
+        font-size: 1.75rem;
+        padding-top: 2.5rem;
+    }
+
+    .text-sm-header {
+        font-size: 0.9rem;
+    }
+
+    .button.navbar-toggler {
+        font-size: 0.5rem;
     }
 }
