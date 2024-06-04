@@ -71,6 +71,15 @@ body {
 	z-index: -1;
 }
 
+.badge {
+    font-size: 90%;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
 
 /* -------------------------------- Media Queries */
 
