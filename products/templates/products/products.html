@@ -46,7 +46,10 @@
                     <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
-                                <span class="small"><a href="{% url 'products' %}">Back to all Products</a> | </span>
+                            <span class="icon">
+                                <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="text-uppercase"><a href="{% url 'products' %}">To all Products </a> | </span>
                             {% endif %}
                             {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>
