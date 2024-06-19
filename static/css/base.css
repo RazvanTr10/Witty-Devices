@@ -92,6 +92,46 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+/* Footer */
+
+.footer {
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer .row {
+    width: 100%;
+    padding: 1%;
+    font-size: 1rem;
+    gap: 40px;
+    justify-content: center;
+}
+
+.footer .row a {
+    transition: 0.5s ease-in;
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.footer .row a:hover {
+    color: rgb(128, 128, 128) !important;
+    text-decoration: underline !important;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+.footer .row a i {
+    font-size: 2.5rem;
+}
+
+.footer .footer-icon {
+    font-size: 1rem !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -140,5 +180,20 @@ a.category-badge > span.badge:hover {
 
     .button.navbar-toggler {
         font-size: 0.5rem;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
     }
 }
