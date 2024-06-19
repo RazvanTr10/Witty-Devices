@@ -1,0 +1,28 @@
+{% load static %}
+
+
+<footer>
+    <div class="footer">
+      <div>
+        <div class="row">
+          <a href="https://www.facebook.com/" target="_blank" aria-label="Follow us on Facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Follow us on Instagram"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" aria-label="Follow us on Youtube"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.twitter.com/" target="_blank" aria-label="Follow us on Twitter"><i class="fa fa-twitter-square"></i></a>
+        </div>
+        <div class="row">
+          <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'products' %}">All Products</a></li>
+            <li><a href="{% url 'products' %}?category=smartBabyMonitors,smartDoorbells,smartCCTVCameras">Smart Security</a></li>
+            <li><a href="{% url 'products' %}?category=smartHeating,smartLighting,smartSockets,smartSpeakers">Smart Home Tech</a></li>
+            <li><a href="{% url 'privacy_policy' %}">Privacy Policy</a></li>
+
+          </ul>
+        </div> 
+        <div class="row">
+          Witty Devices Copyright © 2024 - All rights reserved
+        </div>
+      </div>
+    </div>
+  </footer>
