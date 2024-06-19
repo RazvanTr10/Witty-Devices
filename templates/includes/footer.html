@@ -47,11 +47,17 @@
       </div>
       <div class="row py-3 text-center">
         <a href="https://github.com/RazvanTr10/" target="_blank" aria-label="Razvan Troaca's GitHub profile">
-          2024 Witty Devices
-          <br>
-          All Rights Reserved
+          <span id="current-year"></span> Witty Devices - All Rights Reserved
       </a>
       </div>
     </div>
   </div>
 </footer>
+
+{% block postloadjs %}
+<script>
+    // Updates the copyright in the footer to the current year 
+    const currentYear = document.querySelector("#current-year");
+    currentYear.innerText = new Date().getFullYear();
+</script>
+{% endblock %}
