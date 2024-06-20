@@ -1,54 +1,43 @@
 {% load static %}
 
-
 <footer>
   <div class="footer bg-dark text-white">
-    <div>
+    <div class="container">
       <div class="row">
-        <a href="https://www.facebook.com/" target="_blank" aria-label="Follow us on Facebook"><i
-            class="fa-brands fa-square-facebook"></i></a>
-        <a href="https://www.instagram.com/" target="_blank" aria-label="Follow us on Instagram"><i
-            class="fa-brands fa-square-instagram"></i></a>
-        <a href="https://www.twitter.com/" target="_blank" aria-label="Follow us on Twitter"><i
-            class="fa-brands fa-square-x-twitter"></i></a>
-        <a href="https://www.youtube.com/" target="_blank" aria-label="Follow us on Youtube"><i
-            class="fa-brands fa-square-youtube"></i></a>
-      </div>
-      <div class="row">
-        <ul>
-          <li><a href="{% url 'home' %}">Home</a></li>
-          <li><a href="{% url 'products' %}">All Products</a></li>
-          <li><a href="{% url 'products' %}?category=smartBabyMonitors,smartDoorbells,smartCCTVCameras">Smart
-              Security</a></li>
-          <li><a href="{% url 'products' %}?category=smartHeating,smartLighting,smartSockets,smartSpeakers">Smart Home
-              Tech</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Refunds and Returns</a></li>
-          <li><a href="">Terms and Conditions</a></li>
-        </ul>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="text-center foot-sm mt-2">
-            <p class="text-uppercase"><strong>Contact details</strong></p>
-            <a href="mailto:wittydevices@gmail.com" aria-label="Email us">
-              <i class="fa-regular fa-envelope footer-icon"></i>
-              &nbsp;
-              wittydevices@gmail.com
-            </a>
-            <br>
-            <a href="tel:0805632891" aria-label="Call us">
-              <i class="fa-solid fa-phone footer-icon"></i>
-              &nbsp;
-              080 563 28 91
-            </a>
-          </div>
+        <div class="col-md-3">
+          <ul>
+            <p class="text-uppercase mb-2"><strong>Our policies</strong></p>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Refunds and Returns</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-center">
+          <p class="text-uppercase mb-2"><strong>Contact details</strong></p>
+          <a href="mailto:wittydevices@gmail.com" aria-label="Email us">
+            <i class="fa-regular fa-envelope footer-icon"></i>
+            &nbsp;
+            wittydevices@gmail.com
+          </a>
+          <br>
+          <a href="tel:0805632891" aria-label="Call us">
+            <i class="fa-solid fa-phone footer-icon"></i>
+            &nbsp;
+            080 563 28 91
+          </a>
+        </div>
+        <div class="col-md-3 text-center">
+          <p class="text-uppercase mb-2"><strong>Follow us</strong></p>
+          <a href="https://www.facebook.com/" target="_blank" aria-label="Follow us on Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Follow us on Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.twitter.com/" target="_blank" aria-label="Follow us on Twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" aria-label="Follow us on Youtube"><i class="fa-brands fa-square-youtube"></i></a>
         </div>
       </div>
       <div class="row py-3 text-center">
         <a href="https://github.com/RazvanTr10/" target="_blank" aria-label="Razvan Troaca's GitHub profile">
           <span id="current-year"></span> Witty Devices - All Rights Reserved
-      </a>
+        </a>
       </div>
     </div>
   </div>
@@ -56,8 +45,8 @@
 
 {% block postloadjs %}
 <script>
-    // Updates the copyright in the footer to the current year 
-    const currentYear = document.querySelector("#current-year");
-    currentYear.innerText = new Date().getFullYear();
+  // Updates the copyright in the footer to the current year
+  const currentYear = document.querySelector("#current-year");
+  currentYear.innerText = new Date().getFullYear();
 </script>
 {% endblock %}
