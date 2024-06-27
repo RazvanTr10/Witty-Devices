@@ -1,0 +1,1 @@
+Witty Devices Confirmation for Order Number {{ order.order_number }}
