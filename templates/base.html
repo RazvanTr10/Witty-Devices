@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
     {% endblock %}
 
     {% block extra_css %}
@@ -28,7 +29,9 @@
 
     <title>Witty Devices {% block extra_title %}{% endblock %}</title>
   </head>
+
   <body>
+    <!-- Navbar -->
     <header class="container-fluid fixed-top">
       <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -62,14 +65,14 @@
               </a>
               <div class="dropdown-menu border-0" aria-labelledby="user-options">
                 {% if request.user.is_authenticated %}
-                {% if request.user.is_superuser %}
-                <a href="" class="dropdown-item">Product Management</a>
-                {% endif %}
-                <a href="{% url 'profile' %}" class="dropdown-item">Profile</a>
-                <a href="{% url 'account_logout' %}" class="dropdown-item">Sign Out</a>
+                  {% if request.user.is_superuser %}
+                    <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                  {% endif %}
+                  <a href="{% url 'profile' %}" class="dropdown-item">Profile</a>
+                  <a href="{% url 'account_logout' %}" class="dropdown-item">Sign Out</a>
                 {% else %}
-                <a href="{% url 'account_signup' %}" class="dropdown-item">Join</a>
-                <a href="{% url 'account_login' %}" class="dropdown-item">Sign In</a>
+                  <a href="{% url 'account_signup' %}" class="dropdown-item">Join</a>
+                  <a href="{% url 'account_login' %}" class="dropdown-item">Sign In</a>
                 {% endif %}
               </div>
             </li>
@@ -131,6 +134,7 @@
     {% block content %}
     {% endblock %}
 
+    <!-- Footer -->
     {% include 'includes/footer.html' %}
 
     {% block corejs %}
