@@ -3,6 +3,9 @@
 import os
 import sys
 
+# Check if env.py exists and import it to load environment variables
+if os.path.exists("env.py"):
+    import env
 
 def main():
     """Run administrative tasks."""

@@ -11,6 +11,10 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+# Check if env.py exists and import it to load environment variables
+if os.path.exists("env.py"):
+    import env
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'witty_devices.settings')
 
 application = get_wsgi_application()
