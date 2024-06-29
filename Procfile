@@ -1,0 +1,1 @@
+web: gunicorn witty_devices.wsgi:application

@@ -30,7 +30,9 @@ SECRET_KEY = 'django-insecure-ejziv^@x7)5if@t4hu%(d5f!(kksf3_+f4ggh0$b^8)2chd$ff
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-razvantr10-wittydevices-nh9bacwig29.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = [
+    'https://witty-devices-91c5d0b3a8c2.herokuapp.com/',
+    '8000-razvantr10-wittydevices-nh9bacwig29.ws.codeinstitute-ide.net',]
 
 
 # Application definition
@@ -123,15 +125,14 @@ WSGI_APPLICATION = 'witty_devices.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
+if "DATABASE_URL" in os.environ:
+    DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 else:
+    print("local db connected")
     DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
         }
     }
 
