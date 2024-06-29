@@ -6,6 +6,6 @@ urlpatterns = [
     path('privacy_policy/', views.privacy_policy, name='privacy_policy'),
     path('terms_and_conditions/', views.terms_and_conditions,
          name='terms_and_conditions'),
-    path('refund_and_return_policy/', views.refund_and_return_policy,
-         name='refund_and_return_policy'),
+    path('refunds_and_returns_policy/', views.refunds_and_returns_policy,
+         name='refunds_and_returns_policy'),
 ]
