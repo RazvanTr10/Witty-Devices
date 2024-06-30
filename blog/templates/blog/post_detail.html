@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 my-5">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h1>{% block title %} {{ post.title }} {% endblock title %}</h1>
+                    <p class="text-muted">{{ post.author }} | {{ post.pub_date }}</p>
+                    <p class="card-text">{{ post.content | safe }}</p>
+                    <a href="{% url 'post_list' %}" class="btn btn-outline-black rounded-0 text-uppercase mt-5">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <span>Go Back</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 my-5">
+            <h2>Comments</h2>
+            {% for comment in comments %}
+                <div class="comment card mb-3">
+                    <div class="card-body">
+                        <p class="card-text">{{ comment.content }}</p>
+                        <p class="card-text"><small class="text-muted">By {{ comment.author }} on {{ comment.created_at }}</small></p>
+                        {% if user == comment.author %}
+                            <form method="post" action="{% url 'delete_comment' comment.id %}">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            </form>
+                        {% endif %}
+                    </div>
+                </div>
+            {% empty %}
+                <p>No comments yet.</p>
+            {% endfor %}
+
+            {% if user.is_authenticated %}
+                <h3>Add a comment</h3>
+                <form method="post">
+                    {% csrf_token %}
+                    {{ comment_form.as_p }}
+                    <button type="submit" class="btn btn-primary">Submit Comment</button>
+                </form>
+            {% else %}
+                <p>Please <a href="{% url 'login' %}">log in</a> to leave a comment.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
