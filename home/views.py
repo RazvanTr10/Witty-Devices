@@ -17,7 +17,7 @@ def terms_and_conditions(request):
 
     return render(request, 'home/terms_and_conditions.html')
 
-def refunds_and_returns_policy(request):
-    """ A view to render the refund and return policy page """
+def refunds_and_returns(request):
+    """ A view to render the refunds and returns policy page """
 
     return render(request, 'home/refunds_and_returns.html')
