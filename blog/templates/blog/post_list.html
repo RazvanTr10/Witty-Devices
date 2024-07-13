@@ -2,15 +2,15 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col text-center mt-3 title-padding">
-                <hr class="w-50 my-1">
+    <div class="container-fluid py-5">
+        <div class="row my-5 py-5">
+            <div class="col text-center py-5 my-4">
+                <hr class="w-50 my-2">
                 <h2 class="logo-font">Our Blog</h2>
-                <hr class="w-50 my-1">
+                <hr class="w-50 my-2">
             </div>
         </div>
-        <div class="row">
+        <div class="row my-1">
             <div class="col-md-12 mt-3">
                 {% for post in posts %}
                 <div class="card mb-4">
@@ -18,7 +18,7 @@
                         <h2 class="card-title">{{ post.title }}</h2>
                         <p class="card-text text-muted h6">{{ post.author }} | {{ post.pub_date }}</p>
                         <p class="card-text">{{ post.content|slice:":200" }}</p>
-                        <a href="{% url 'post_detail' post.id %}" class="btn btn-danger rounded-0 text-uppercase">Read More &rarr;</a>
+                        <a href="{% url 'post_detail' post.id %}" class="btn btn-info rounded-0 text-uppercase">Read More &rarr;</a>
                     </div>
                 </div>
                 {% endfor %}

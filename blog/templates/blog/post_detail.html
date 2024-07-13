@@ -2,8 +2,8 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container-fluid">
-    <div class="row">
+<div class="container-fluid my-5 py-5">
+    <div class="row my-5 py-5">
         <div class="col-md-12 my-5">
             <div class="card mb-4">
                 <div class="card-body">
@@ -49,7 +49,7 @@
                     <button type="submit" class="btn btn-primary">Submit Comment</button>
                 </form>
             {% else %}
-                <p>Please <a href="{% url 'login' %}">log in</a> to leave a comment.</p>
+                <p>Please <a href="{% url 'account_login' %}">log in</a> to leave a comment.</p>
             {% endif %}
         </div>
     </div>
