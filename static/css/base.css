@@ -108,6 +108,10 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.card-body {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* Footer */
 .footer {
     padding: 10px 0px;

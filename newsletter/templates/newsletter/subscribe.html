@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+{% extends "base.html" %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid py-5">
+    <div class="col py-5 my-4">
+        <hr class="w-50 my-2">
+        <h2 class="logo-font text-center">Newsletter Subscription</h2>
+        <hr class="w-50 my-2">
+    </div>
+    <div class="row">
+        <div class="col-md-12 mt-3 d-flex justify-content-center">
+            <div class="card mb-4">
+                <div class="card-body">
+                    {% if messages %}
+                    <div class="messages">
+                        {% for message in messages %}
+                        <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}" role="alert">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    <p>Stay up to date with news from us. Find out what products will be coming to our website. Discover tips to building a home of the future in our blog.</p>
+                    <form method="POST" action="{% url 'subscribe' %}" id="subscribe-form">
+                        {% csrf_token %}
+                        {{ subscribe_form|crispy }}
+                        <button class="btn btn-info rounded-0 text-uppercase" type="submit">
+                            Subscribe Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
