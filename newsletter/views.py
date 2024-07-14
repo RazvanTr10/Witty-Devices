@@ -7,8 +7,8 @@ def subscribe(request):
         form = SubscriberForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success(request, 'You have been successfully subscribed!')
+            messages.success(request, 'You have successfully subscribed!')
             return redirect('subscribe')
     else:
         form = SubscriberForm()
-    return render(request, 'newsletter/subscribe.html', {'form': form})
+    return render(request, 'newsletter/subscribe.html', {'subscribe_form': form})
