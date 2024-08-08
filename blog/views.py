@@ -3,14 +3,15 @@ from django.contrib.auth.decorators import login_required
 from .models import Post, Comment
 from .forms import CommentForm
 
+
 def post_list(request):
     posts = Post.objects.all().order_by('-pub_date')
     return render(request, 'blog/post_list.html', {'posts': posts})
 
+
 def post_detail(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
     comments = post.comments.all().order_by('-created_at')
-    
     if request.method == 'POST':
         comment_form = CommentForm(request.POST)
         if comment_form.is_valid() and request.user.is_authenticated:
@@ -28,6 +29,7 @@ def post_detail(request, post_id):
         'comment_form': comment_form
     }
     return render(request, 'blog/post_detail.html', context)
+
 
 @login_required
 def delete_comment(request, comment_id):
