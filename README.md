@@ -57,7 +57,7 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
       - [***CSS*** - https://jigsaw.w3.org/css-validator/](#css---httpsjigsaww3orgcss-validator)
       - [***JSHint*** - https://jshint.com/](#jshint---httpsjshintcom)
       - [***Python linter*** - https://pep8ci.herokuapp.com/](#pythonlinter---httpspep8ciherokuappcom)
-      - [**Lighthouse Scores**](#lighthouse-scores)
+      - [**PageSpeed Insights**](#pagespeed-insights)
   - [**Deployment**](#deployment)
   - [**Credits**](#credits)
     - [**General reference:**](#general-reference)
@@ -200,17 +200,13 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
 ![Color Palette]()
 
 
-I also created this color contrast grid using [https://contrast-grid.eightshapes.com/](), to check the contrast scored and ensure the text remains visible across the entire website and that the site is accessible to everyone.
+I also created this color contrast grid using [https://contrast-grid.eightshapes.com/](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23000000%2C%20Black%0D%0A%23212529%0D%0A%23FFFFFF%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp), to check the contrast scored and ensure the text remains visible across the entire website and that the site is accessible to everyone.
 
 ![Color Contrast Grid]()
 
 ### **Typography:**
 
-I decided on using a Google font.
-
-![Typography]()
-
-While for the logo of the website, in the left corner, I chose a Google font called because it looks stylish and fit for the name of the website.
+I decided on using a Google font named Barlow. It features rounded, slightly condensed letterforms with a clean, geometric aesthetic. Barlow’s design is inspired by the visual style of Californian road signs, combining functionality with a friendly, approachable look.
 
 ![Typography]()
 
@@ -438,12 +434,14 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 ![Python linter results]()
 
-#### **Lighthouse Scores**
+#### **PageSpeed Insights**
 
-- All lighthouse tests have been made while in incognito mode to avoid any browser extensions interference.
-- I have asked several people to run lighthouse tests from their own devices as well, and they were getting similar scores.
+- All PageSpeed Insights tests have been made while in incognito mode to avoid any browser extensions interference.
+- I have asked several people to run these tests from their own devices as well, and they were getting similar scores.
 
-![Lighthouse score]()
+![PageSpeed Insights Desktop]()
+
+![PageSpeed Insights Mobile]()
 ***
 
 ## **Deployment**
@@ -462,3 +460,5 @@ Markdown Cheatsheet from [Adam Pritchard](https://github.com/adam-p/markdown-her
 
 ### **Content:**
 
+- **Background** photo by <a href="https://unsplash.com/@jakubzerdzicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jakub Żerdzicki</a> on <a href="https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-table-_0T3hgs3lig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
