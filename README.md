@@ -5,7 +5,7 @@
 [View the live project here.](https://witty-devices-91c5d0b3a8c2.herokuapp.com/)
 
 
-Discover the epitome of automotive excellence in Leicester at Sophisticated Wheels. Immerse yourself in our exclusive collection of prestigious vehicles, meticulously curated for the discerning driver. Indulge your automotive desires with our diverse array of luxury cars, conveniently showcased in our state-of-the-art showroom. At Sophisticated Wheels, we understand that your quest for the perfect vehicle is a journey, and we're here to accompany you every step of the way. Our commitment to excellence extends beyond aesthetics. Whether you crave the thrill of a sports car or the old school feel of a classic car, we stand ready to guide you to your ideal automotive companion in Leicester. As a fully approved service center, our dedication to quality assurance ensures that your confidence in us is well-placed. When you choose us, you're not just buying a car; you're investing in a seamless and reassuring experience.
+Welcome to Witty Devices, your trusted source for the latest in smart home technology and security solutions. We offer a carefully curated range of products that combine innovation with convenience, helping you create a safer, smarter, and more efficient living space. Whether you're looking to upgrade your home security with intelligent cameras and alarms or seeking advanced automation systems to simplify daily tasks, Witty Devices has everything you need to transform your home into a modern, connected sanctuary. Explore our collection and experience the future of home technology today.
 
 ![Website responsiveness]()
 
@@ -67,19 +67,62 @@ Discover the epitome of automotive excellence in Leicester at Sophisticated Whee
 
 ### **Target Audiences:**
 
+- **Homeowners** looking to upgrade their living spaces with the latest smart security systems and home automation technology.
+- **Tech-savvy individuals** interested in integrating cutting-edge devices into their homes for enhanced convenience and control.
+- **Young professionals** who value efficiency and seek to streamline their daily routines with smart home gadgets.
+- **Parents** wanting to ensure the safety of their families with advanced home security solutions.
+- **DIY enthusiasts** eager to customize and optimize their homes using smart devices.
+- **Elderly people or caregivers** searching for smart home products that offer convenience, safety, and remote monitoring features.
+- **Real estate developers or property managers** aiming to increase the value and appeal of their properties by incorporating modern smart technology.
 
 
 ### **User Stories:**
 
+- As a user of the website, I want to easily navigate through Witty Devices' selection of smart security products, so I can quickly find the best system to protect my home and purchase it with confidence.
 
+- As a user of the website, I want to see detailed product descriptions, so I can make informed decisions about which smart home devices will best suit my needs.
+
+- As a user of the website, I want a seamless and secure checkout process, so I can complete my purchases without hassle and trust that my payment information is safe.
+
+- As a user of the website, I want to find product recommendations and guides, so I can discover the latest smart home trends and easily identify which devices are compatible with my existing setup.
+
+- As a user of the website, I want to see a clean, responsive design that works well on both desktop and mobile, so I can browse and shop for smart devices wherever I am.
+
+- As a user of the website, I want to filter products by features, price, and compatibility, so I can efficiently find exactly what I need without sifting through irrelevant items.
+
+- As a user of the website, I want to be able to subscribe to a newsletter so I can be informed whenever new products come in stock.
 
 ### **Site Aims:**
 
+- Simplify Navigation: The website aims to provide an intuitive and user-friendly interface that allows users to effortlessly browse and find the smart security and home tech products they need.
 
+- Offer Comprehensive Information: The website aims to feature detailed product descriptions, helping users make well-informed purchasing decisions.
+
+- Ensure a Smooth Checkout Process: The website aims to deliver a seamless, secure, and hassle-free checkout experience, giving users peace of mind while completing their purchases.
+
+- Provide Guidance: The website aims to offer helpful guides, tutorials, and product recommendations, ensuring users can easily discover and install the latest smart home devices.
+
+- Optimize Mobile Experience: The website aims to deliver a clean, responsive design that functions flawlessly across all devices, enabling users to shop for smart devices on the go.
+
+- Facilitate Efficient Product Search: The website aims to implement advanced filtering and search options, allowing users to quickly find products based on category, price, and rating, tailored to their specific needs.
+
+- Implement a newsletter: The website aims to add a newsletter subscription, so that user can be alerted when a new line of product gets added.
 
 ### **How Will This Be Achieved:**
 
+- Simplify Navigation: The website will achieve this by implementing a clear and organized menu structure, intuitive category listings, and a robust search function. Key sections like smart security and home tech will be prominently displayed for easy access.
 
+- Offer Comprehensive Information: The website will provide detailed product pages that include in-depth descriptions, high-quality images and specifications as well as ratings for the products.
+
+- Ensure a Smooth Checkout Process: The website will feature a streamlined checkout process with minimal steps, a payment option, and strong encryption to secure user data.
+
+- Provide Guidance: The website will host a dedicated blog section with guides, smart home tips and new technologies that are constantly being released.
+
+- Optimize Mobile Experience: The website will be built using responsive design principles, ensuring it adapts seamlessly to any screen size. Mobile-specific features, such as touch-friendly navigation and quick access buttons, will enhance the user experience on smartphones and tablets.
+
+- Facilitate Efficient Product Search: The website will implement advanced filtering and sorting options, allowing users to search by categories such as price, brand, features, and compatibility.
+
+- Implement a newsletter: The website will have a dedicated newsletter section, where users can enter their name and their email address to be added to the newsletter database.
 
 ### **Design:**
  * Below is the schema design for the database that will hold and handle 
@@ -400,7 +443,7 @@ During my manual testing, I have tested every user story, to ensure that the nee
 - All lighthouse tests have been made while in incognito mode to avoid any browser extensions interference.
 - I have asked several people to run lighthouse tests from their own devices as well, and they were getting similar scores.
 
-![ Lighthouse score]()
+![Lighthouse score]()
 ***
 
 ## **Deployment**
