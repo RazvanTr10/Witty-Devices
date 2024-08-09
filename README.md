@@ -20,6 +20,7 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
     - [**Site Aims:**](#site-aims)
     - [**How Will This Be Achieved:**](#how-will-this-be-achieved)
     - [**Design:**](#design)
+    - [**Custom Models:**](#custom-models)
     - [**Wireframes:**](#wireframes)
     - [**Color Scheme:**](#color-scheme)
     - [**Typography:**](#typography)
@@ -84,7 +85,7 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
 
 - As a user of the website, I want a seamless and secure checkout process, so I can complete my purchases without hassle and trust that my payment information is safe.
 
-- As a user of the website, I want to find product recommendations and guides, so I can discover the latest smart home trends and easily identify which devices are compatible with my existing setup.
+- As a user of the website, I want to find product recommendations and guides, so I can discover the latest smart home trends.
 
 - As a user of the website, I want to see a clean, responsive design that works well on both desktop and mobile, so I can browse and shop for smart devices wherever I am.
 
@@ -125,13 +126,36 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
 - Implement a newsletter: The website will have a dedicated newsletter section, where users can enter their name and their email address to be added to the newsletter database.
 
 ### **Design:**
- * Below is the schema design for the database that will hold and handle 
+ * The database model or ERD(entity relationship diagram) was created to visualise the connection between models within the project. The diagram was created using Drawsql.app, here is the link to the diagram: [https://drawsql.app/teams/razvan-1/diagrams/witty-devices]
 
 ![Schema design]()
 
- * And this is the flowchart of the website.
+### **Custom Models:**
 
- ![Flowchart]()
+The custom models made for this project were:
+
+#### Our Blog:
+The blog has functionality to add posts(as a admin/superuser) that have a title, a text body, a button to click that will expand the entire blog post in a new page where users can also comment on the blog post as well as delete their own comment.
+
+**Blog Post Model Database Fields:**
+- id: bigint
+- post_title : varchar
+- content: text
+- author : varchar
+- date_published: date
+- comment: text
+- comment_author: varchar
+- comment_date: date
+
+
+#### Newsletter:
+The newsletter section's functionality is to allow users to input, in a form, their name and email address, to be added to the newsletter subscription.
+
+**Newsletter Model Database Fields:**
+- id: bigint
+- name: varchar
+- email: varchar
+- date_subscribed: date
 
 ### **Wireframes:**
 
@@ -223,7 +247,7 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
 * Favicon created on [favicon.cc](https://www.favicon.cc/).
 * Showcasing the site on different devices by [Bytes](https://ui.dev/amiresponsive)
 * Paint from [Microsoft](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H?hl=en-us&gl=us)
-* Flowchart by [diagrams.net/draw.io](https://www.diagrams.net/)
+* ERD by [drawsql.app](https://drawsql.app/)
 
 ### **Front-End:**
 
@@ -233,11 +257,21 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
     - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) for custom styling the site.
 - ![Javascript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript&logoColor=f5f5f5)
     - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for JavaScript functionality.
+- ![jQuery 3.4.1](https://img.shields.io/static/v1?label=jQuery&message=3.4.1&color=0769AD&logo=jquery&logoColor=ffffff)
+    - [jQuery 3.4.1](https://code.jquery.com/jquery/) - Used as the primary JavaScript functionality.
+- ![Bootstrap 4.6](https://img.shields.io/static/v1?label=Bootstrap&message=4.6&color=ee6e73)
+    - [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Used as the front-end framework for layout and design.
+- ![Stripe API](https://img.shields.io/static/v1?label=Stripe&message=API&color=008CDD&logo=stripe&logoColor=ffffff)
+    - [Stripe API](https://stripe.com/docs/api?lang=python) - Used to make secured payments.
+- ![Amazon AWS S3](https://img.shields.io/static/v1?label=Amazon%20AWS&message=S3&color=232F3E&logo=amazon%20aws)
+    - [Amazon AWS S3](https://aws.amazon.com/) - Used to store static files and media folders and files.
 
 ### **Back-End:**
 
 - ![Python](https://img.shields.io/static/v1?label=Python&message=3.12.2&color=blue&logo=python&logoColor=ffffff)
     - [Python 3.12.2](https://www.python.org/) is a high-level, general-purpose programming language.
+- ![Django](https://img.shields.io/static/v1?label=Django&message=3.2.25&color=092E20&logo=django)
+    - [Django 3.2.25](https://docs.djangoproject.com/en/3.2/) - Used as my Python web framework.
 - ![Heroku](https://img.shields.io/static/v1?label=Heroku&message=PaaS&color=430098&logo=heroku)
     - [Heroku](https://www.heroku.com) is used as *"Platform as a Service"* (PaaS) for app hosting.
 
