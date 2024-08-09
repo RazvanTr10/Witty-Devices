@@ -328,17 +328,10 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
 
 
 ### **Account Page Content:**
-* If the user is not logged in, the page will display the login page.
+* If the user is not logged in, the page will not allow you to go to the account page. When the user is logged in, the page displays a form where they can update their default delivery info, and a section where they can see their previous orders.
   
-![Account section1]()
+![Account section]()
 
-* If the user is logged in, but has no selling forms the page will display a message that informs the user there are no cars available.
-
-![Account section2]()
-
-* If the user is logged in and has previously filled a selling form, the car will display in the users account.
-
-![Account section2]()
 
 ### **Sign In Page Content:**
 * The page displays a form for the user to login.
@@ -349,14 +342,6 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
 * The page displays a form for the user to register a new account.
 
 ![Join]()
-
-### **Privacy Policy Page Content:**
-
-
-### **Refunds and Returns Page Content:**
-
-
-### **Terms and Conditions Page Content:**
 
 
 ### **404 Error Page Content**
