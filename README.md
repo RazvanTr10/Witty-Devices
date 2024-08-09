@@ -162,60 +162,60 @@ The newsletter section's functionality is to allow users to input, in a form, th
 - Mobile Wireframes:
   - Home page
 
-![Home page]()
+![Home page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/home-mobile.jpeg?raw=true)
   - All Products page
   
-![All Products page]()
+![All Products page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/products-mobile.jpeg?raw=true)
   - Products detail page
   
-![Products detail page]()
+![Products detail page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/description-mobile.jpeg?raw=true)
   - Our Blog page
   
-![Our Blog page]()
+![Our Blog page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/blog-mobile.jpeg?raw=true)
   - Newsletter page
   
-![Newsletter page]()
+![Newsletter page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/newsletter-mobile.jpeg?raw=true)
   - Account page
   
-![Account page]()
+![Account page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/account-mobile.jpeg?raw=true)
   - Checkout page
   
-![Checkout page]()
+![Checkout page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/checkout-mobile.jpeg?raw=true)
   - Sign In page
   
-![Sign In page]()
+![Sign In page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/signin-mobile.jpeg?raw=true)
   - Join page
   
-![Join page]()
+![Join page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/join-mobile.jpeg?raw=true)
 
 - Desktop Wireframes:
   - Home page
 
-![Home page]()
+![Home page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/home-desktop.jpeg?raw=true)
   - All Products page
   
-![All Products page]()
+![All Products page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/products-desktop.jpeg?raw=true)
   - Products detail page
   
-![Products detail page]()
+![Products detail page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/description-desktop.jpeg?raw=true)
   - Our Blog page
   
-![Our Blog page]()
+![Our Blog page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/blog-desktop.jpeg?raw=true)
   - Newsletter page
   
-![Newsletter page]()
+![Newsletter page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/newsletter-desktop.jpeg?raw=true)
   - Account page
   
-![Account page]()
+![Account page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/account-desktop.jpeg?raw=true)
   - Checkout page
   
-![Checkout page]()
+![Checkout page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/checkout-desktop.jpeg?raw=true)
   - Sign In page
   
-![Sign In page]()
+![Sign In page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/signin-desktop.jpeg?raw=true)
   - Join page
   
-![Join page]()
+![Join page](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/wireframes/join-desktop.jpeg?raw=true)
 
 ### **Color Scheme:**
 
