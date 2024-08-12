@@ -128,7 +128,7 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
 ### **Design:**
  * The database model or ERD(entity relationship diagram) was created to visualise the connection between models within the project. The diagram was created using Drawsql.app, here is the link to the diagram: [https://drawsql.app/teams/razvan-1/diagrams/witty-devices]
 
-![Schema design](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/schema.jpeg?raw=true)
+![Schema design](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/schema.jpg?raw=true)
 
 ### **Custom Models:**
 
@@ -221,18 +221,18 @@ The newsletter section's functionality is to allow users to input, in a form, th
 
  The color palette was created using [https://coolors.co/]
 
-![Color Palette](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/palette.jpeg?raw=true)
+![Color Palette](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/palette.jpg?raw=true)
 
 
 I also created this color contrast grid using [https://contrast-grid.eightshapes.com/](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23000000%2C%20Black%0D%0A%23212529%0D%0A%23FFFFFF%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp), to check the contrast scored and ensure the text remains visible across the entire website and that the site is accessible to everyone.
 
-![Color Contrast Grid](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/contrastgrid.jpeg?raw=true)
+![Color Contrast Grid](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/contrastgrid.jpg?raw=true)
 
 ### **Typography:**
 
 I decided on using a Google font named Barlow. It features rounded, slightly condensed letterforms with a clean, geometric aesthetic. Barlow’s design is inspired by the visual style of Californian road signs, combining functionality with a friendly, approachable look.
 
-![Typography](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/font.jpeg?raw=true)
+![Typography](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/font.jpg?raw=true)
 
 ### **Technologies Used:**
 
@@ -293,18 +293,18 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
 * Contains links to the Home, All Products, Smart Security, Smart Home Tech, Our Blog, Newsletter, Account(which is togglable and opens links to Join and Sign In) and Shopping Bag for quick navigation around the website. 
 * On mobile the navbar transforms into a togglable hamburger button.
 
-![Header Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/header-desktop.jpeg?raw=true)
+![Header Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/header-desktop.jpg?raw=true)
 
-![Header Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/header-mobile.jpeg?raw=true)
+![Header Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/header-mobile.jpg?raw=true)
 
 ## **Footer**
 
 * Placed at the bottom of the page, it includes links to Our Policies, Contact Details as well as links to all social media accounts.
 * The footer includes a copyright notice at the bottom and has the same dark background as the promotional banner under the navbar. The footer also includes a function that automatically updates the date.
 
-![Footer Destkop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/footer-desktop.jpeg?raw=true)
+![Footer Destkop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/footer-desktop.jpg?raw=true)
 
-![Footer Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/footer-mobile.jpeg?raw=true)
+![Footer Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/footer-mobile.jpg?raw=true)
 
 ## **Individual Page Content features**
 
@@ -312,68 +312,68 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
 
 * The homepage contains the background and a button, a short heading and a Shop Now button that takes you to the All Products page.
   
-![Home Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/home-desktop.jpeg?raw=true)
+![Home Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/home-desktop.jpg?raw=true)
 
-![Home Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/home-mobile.jpeg?raw=true)
+![Home Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/home-mobile.jpg?raw=true)
 
 ### **All Products Page Content:**
 
 * The All Products page contains all the products from both sections, the smart security products and the smart home tech products.
 
-![All Products Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/allproducts-desktop.jpeg?raw=true)
+![All Products Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/allproducts-desktop.jpg?raw=true)
 
 ### **All Smart Security Page Content:**
 
 * The All Smart Security Page contains products from the Smart CCTV Cameras, Smart Doorbells and Smart Baby Monitors pages. The page includes also 3 buttons at the top of the page to allow the user to filter by which category they want.
 
-![All Smart Security Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/security-desktop.jpeg?raw=true)
+![All Smart Security Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/security-desktop.jpg?raw=true)
 
 ### **All Smart Home Tech Page Content:**
 
 * The All Smart Security Page contains products from the Smart Heating, Smart Lighting, Smart Plugs and Smart Speakers pages. The page includes also 4 buttons at the top of the page to allow the user to filter by which category they want.
 
-![All Smart Home Tech Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/hometech-desktop.jpeg?raw=true)
+![All Smart Home Tech Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/hometech-desktop.jpg?raw=true)
 
 ### **Our Blog Page Content:**
 
 * The Our Blog page contains multiple articles posted by the admin of the website. Every article has just a short preview and a button that the user can press to be redirected to the full article. On the full article page, the user can leave comments as well as delete their own comment.
 
-![Our Blog](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/blog.jpeg?raw=true)
+![Our Blog](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/blog.jpg?raw=true)
 
 ### **Newsletter Page Content:**
 
 * The Newsletter page contains a form that users can fill to subscribe to the website's newsletter. The form has a field for name and another field for users to input their email address, as well as a subscribe button.
 
-![Newsletter](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/newsletter.jpeg?raw=true)
+![Newsletter](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/newsletter.jpg?raw=true)
 
 ### **Checkout Page Content:**
 
 * The Checkout page contains a form that users can fill with their details(name and email address), delivery details(phone number, street, town or city, county, country and postcode) and payment information. The page also displays the order summary where the users can see the products they added to their shopping bag, total price, delivery price and grand total. At the bottom of the page there are 2 buttons, one takes the user back to the shopping bag to update it and the other button completes the order.
 
-![Checkout](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/checkout.jpeg?raw=true)
+![Checkout](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/checkout.jpg?raw=true)
 
 ### **Account Page Content:**
 
 * If the user is not logged in, the page will not allow you to go to the account page. When the user is logged in, the page displays a form where they can update their default delivery info, and a section where they can see their previous orders.
   
-![Account section](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/account.jpeg?raw=true)
+![Account section](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/account.jpg?raw=true)
 
 
 ### **Sign In Page Content:**
 
 * The page displays a form for the user to login.
 
-![Sign In Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/login-desktop.jpeg?raw=true)
+![Sign In Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/login-desktop.jpg?raw=true)
 
-![Sign In Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/login-mobile.jpeg?raw=true)
+![Sign In Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/login-mobile.jpg?raw=true)
 
 ### **Join Page Content:**
 
 * The page displays a form for the user to register a new account.
 
-![Join Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/signup-desktop.jpeg?raw=true)
+![Join Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/signup-desktop.jpg?raw=true)
 
-![Join Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/signup-mobile.jpeg?raw=true)
+![Join Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/signup-mobile.jpg?raw=true)
 
 ### **Privacy Policy Page Content:**
 
@@ -398,7 +398,7 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
 * The page displays a message to inform the user that the page that they were looking for is unavailable.
 * Under the message displayed, there is a button that sends the user back to the Home page.
 
-![404 Error](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/404error.jpeg?raw=true)
+![404 Error](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/404error.jpg?raw=true)
 
 
 ## **Future-Enhancements**
@@ -483,6 +483,190 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 #### **Functionality testing**
 
+* Home Page and Navbar:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Witty Devices | User heads to: https://witty-devices-91c5d0b3a8c2.herokuapp.com/ | Witty Devices Home Page is loaded | ✔ |
+| Witty Devices Logo | Click | User is redirected to the Home Page | ✔ |
+| Search bar | Click on the search button while search bar is empty | User is redirected to All Products page, all products are displayed and toast message:"You didn't enter any search criteria!", appears | ✔ |
+| Search bar | Click on the button while typing something non-existent within search bar | User is redirected to Products page while none of products are displayed but a short message is displayed:"0 Products found for "random search word"" | ✔ |
+| Search bar | Click on the button while "camera" is present in the search bar | User is redirected to Products page, while 4 products are displayed as they have the word "camera" present in: name, description, brand or category fields of the product, as well as a short message saying: "4 Products found for "camera"" | ✔ |
+| Search bar | Click on the button while any word in the: name, description, brand, or category fields of the product is present in the search bar | User is redirected to the Products page and the product/s are displayed with the apropriate short message | ✔ |
+| My Account/Not-Authenticated | Click | Drop down menu opens with 2 options: Join and Sign In | ✔ |
+| My Account/Authenticated/User | Click | Drop down menu opens with 2 options: Account and Sign Out | ✔ |
+| My Account/Authenticated/Admin | Click | Drop down menu opens with 3 options: Product Management, Account and Sign Out | ✔ |
+| Shopping Bag/Not-Empty | Click | User is redirected to the shopping bag page and products present in the shopping bag are displayed | ✔ |
+| Shopping Bag/Empty | Click | User is redirected to the shopping bag page and a short message,"Your bag is empty.", is displayed | ✔ |
+| All Products | Click | Drop-down menu opens with the available options | ✔ |
+| All Products > Any available option | Click | User is redirected to the products page sorted according to the chosen option | ✔ |
+| Smart Security | Click | Drop-down menu opens with the available options | ✔ |
+| Smart Security > Any available option | Click | User is redirected to the products page sorted according to the chosen option | ✔ |
+| Smart Home Tech | Click | Drop-down menu opens with the available options | ✔ |
+| Smart Home Tech > Any available option | Click | User is redirected to the products page sorted according to the chosen option | ✔ |
+| Our Blog | Click | User is redirected to the blog page. | ✔ |
+| Newsletter | Click | User is redirected to the newsletter page | ✔ |
+
+* Footer:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Privacy Policy | Click | User is redirected to the Privacy Policy page | ✔ |
+| Refunds and Returns | Click | User is redirected to the Refunds and Returns page | ✔ |
+| Terms and Conditions | Click | User is redirected to the Terms and Conditions page | ✔ |
+| Contact Email Address | Click | User's email app opens and automatically adds the Witty Devices email address to the recipient field.| ✔ |
+| Contact Phone Number | Click | User's phone app opens and automatically adds the Witty Devices phone number in the keypad field.| ✔ |
+| Social Network Icons | Click | New tab opens and the user is redirected to the chosen site | ✔ |
+
+* Authentication:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Join/Invalid Form | Click | A short message will pop up depending on the scenario, saying: "Please fill out this field.", "Please lengthen this text to 4 characters or more(you are currently using x characters)." | ✔ |
+| Join/Form Valid/Email in use already | Click | A message pops up saying: "A user is already registered with this email address." | ✔ |
+| Join/Form Valid | Click | User is redirected to the VERIFY YOUR E-MAIL ADDRESS page and a short toast message pops up saying: "Confirmation email sent to testmail@test.com." | ✔ |
+| Confirmation Email/Confirmation Link | Click | User is redirected to the CONFIRM EMAIL ADDRESS page. There is a confirm button to click  | ✔ |
+| Confirm Button | Click | User gets redirected to the Sign In page and a short toast message pops up saying: "You have confirmed testmail@test.com." | ✔ |
+| Join Page/Back to Sign In Button | Click | User gets redirected to the Sign In Page | ✔ |
+| Join Page/Sign In Link | Click | User gets redirected to the Sign In Page | ✔ |
+| Sign In Page/Sign Up Link | Click | User gets redirected to the Sign Up Page | ✔ |
+| Sign in Page/ Home button | Click | User gets redirected to the Home Page | ✔ |
+| Sign In/Form Invalid/Sign In Button | Click | A short message pops up saying: "The email address and/or password you specified are not correct." | ✔ |
+| Sign In/Form Valid/Sign In Button | Click | User gets redirected to the Home page and toast message pops up saying: "Successfully signed in as XXX." | ✔ |
+| Sign In Page/Forgot Password Link | Click | User gets redirected to the Password Reset Page | ✔ |
+| Password Reset Page/Back to Login Button | Click | User gets redirected to the Sign In Page | ✔ |
+| Password Reset Page/Form Empty/Reset My Password Button | Click | A short message pops up saying: "Pleas fill out this field." | ✔ |
+| Password Reset Page/Form(Email) Invalid/Reset My Password Button | Click | A short message pops up saying: "The email address is not assigned to any user account" | ✔ |
+| Password Reset Page/Form Valid/Reset My Password Button | Click | Password Reset Page is rendered with the message: "We have sent you an email. Please contact us if you do not receive it within a few minutes." | ✔ |
+| Sign Out Page/Cancel Button | Click | User gets redirected to the Home page | ✔ |
+| Sign Out Page/Sign Out Button | Click | User gets redirected to the Home page and a short toast message pops up saying: "You have signed out." | ✔ |
+
+* Product Management:
+
+- This feature is available only for admins.
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| My Account/Product Management | Click | User gets redirected to the Product Management Page | ✔ |
+| Product Management Page/Cancel Button | Click | User gets redirected to the All Products Page | ✔ |
+| Product Management Page/Form Invalid/Add Product Button | Click | A short message will pop up saying: "Please fill out this field." | ✔ |
+| Product Management Page/Form Valid/Add Product Button | Click | User gets redirected to the added product page and a short toast message pops up saying: "Successfully added product!" | ✔ |
+| Non-Admin User inserts /delete/ before the product number in the address bar | Enter | User gets redirected to the Home Page, and a small toast message pops up saying: "Sorry, only store owners can do that!" | ✔ |
+| Non-Admin User inserts /edit/ before the product number in the address bar | Enter | User gets redirected to the Home Page, and a small toast message pops up saying: "Sorry,only store owners can do that!" | ✔ |
+
+* Account:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Account| Click | User gets redirected to the Account page | ✔ |
+| Account Page/Edit Any field/Update Information Button | Click | User gets redirected to the same page and a short toast message pops up saying: "Profile updated successfully" | ✔ |
+| Account Page/Order History/Order Number | Click | User gets redirected to the Thank You page and a short toast message pops up saying: "This is a past confirmation for order number 3DK675DB88A34A9788FB10A15112J8PM. A confirmation email was sent on the order date." | ✔ |
+| Thank You Page/Back to Account Button | Click | User gets redirected to the Account Page | ✔ |
+| Account/Sign Out | Click | User gets redirected to the Sign Out Page | ✔ |
+
+* Shopping Bag:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Shopping Bag Icon In Navbar | Click | User is redirected to the Shopping Bag Page | ✔ |
+| Shopping Bag Icon/Page Empty | Click | The page is rendered with a message: "Your bag is empty." | ✔ |
+| Qty Button Minus/Number of item is 1 | Click | The (-) button is disabled as the number of items is 1 | ✔ |
+| Arrow Down Button | Click | The (🔽) button is disabled as the number of items is 1 | ✔ |
+| Qty Button Plus/Number of item is 99 | Click | The (+) button is disabled as the number of items is 99 | ✔ |
+| Arrow Up Button | Click | The (🔼) button is disabled as the number of items is 99 | ✔ |
+| Qty Button Minus or Plus/Number of items from 2-98 | Click | The (-) and (+) buttons are decreasing/increasing the number of items | ✔ |
+| Arrow Down or Up Buttons/Number of items from 2-98 | Click | The (🔽) and (🔼) buttons are decreasing/increasing the number of items | ✔ |
+| Update Button | Click | The Shopping Bag Page gets refreshed, number of items updated, and a short toast message pops up saying: "Updated Product Name quantity to 1" | ✔ |
+| Remove Button | Click | The Shopping Bag page gets refreshed, the desired item is removed, and a short toast message pops up saying: "Removed Product Name from your bag" | ✔ |
+| Keep Shopping Button | Click | User gets redirected to the All Products Page | ✔ |
+| Secure Checkout Button | Click | User gets redirected to the Checkout Page | ✔ |
+
+* Checkout:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Checkout Page/Form Invalid/Complete Order Button | Click | A short field message pops up saying: "Please fill out this field." | ✔ |
+|Checkout Page/Form Valid But Payment Details/Complete Order Button  | Click | A short message will pop up saying: "Your card number is incomplete.", "Your card's expiration date is incomplete.", "Your card's expiration date is in the past.", "Your card's security code is incomplete.", "Your postal code is incomplete." | ✔ |
+| Checkout Page/Form Valid and Payment Details/Complete Order Button | Click | User gets redirected to the Thank You Page, a short toast message pops up saying: "Order successfully processed! Your order number is DVF58D184D034C10BA9D3162AC5C289T. A confirmation email will be sent to test@gmail.com." | ✔ |
+| Thank You Page/Checkout Other Products Button | Click | User gets redirected to the All Products Page | ✔ |
+| Checkout Page/Not-Authenticated User/Create an account Link | Click | User gets redirected to the Sign Up Page | ✔ |
+| Checkout Page/Not-Authenticated User/Login Link | Click | User gets redirected to the Sign In Page | ✔ |
+| Checkout Page/Save this delivery information to my profile Checked/Complete Order Button | Click | User Personal details and Delivery details are getting saved to user My Profile Page | ✔ |
+
+* Products:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Sort by Filtering... | Click | The page gets refreshed and sorted as desired and clicked | ✔ |
+| Image of the product | Click | User gets redirected to the Product Detail Page | ✔ |
+| Badge Icon under the pricture | Click | User gets redirected to the Products page but rendered items are those of the clicked badge(category)  | ✔ |
+| Add to Bag Button | Click | The Page gets refreshed and a short toast message pops up saying: "Added Product Name to your bag" | ✔ |
+| Edit Button(Admins Only) | Click | Admin gets redirected to the Product Management Page, a short toast alert message pops up saying: "You are editing Product Name" | ✔ |
+| Delete Button(Admins Only) | Click | The Products page is refreshed and a short toast message pops up saying: "Product: Product Name has been deleted!" | ✔ |
+| Scroll Down | Scroll | User scrolls down the page, Back to the top Button appears | ✔ |
+| Back to the Top Button | Click | The Page gets scrolled back to the top | ✔ |
+
+* Product Detail:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Product Detail Page/ Arrow back Button(⬅) | Click | User gets redirected to the previous page | ✔ |
+| Product Image | Click | New tab opens with the S3 bucket address | ✔ |
+| Badge Icon under the pricture | Click | User gets redirected to the Products page but rendered items are those of the clicked badge(category)  | ✔ |
+| Edit Button(Admins Only) | Click | Admin gets redirected to the Product Management Page, a short toast alert message pops up saying: "You are editing Product Name" | ✔ |
+| Delete Button(Admins Only) | Click | The Products page is refreshed and a short toast message pops up saying: "Product: Product Name has been deleted!" | ✔ |
+| Keep Shopping Button | Click | User gets redirected to the All Products Page | ✔ |
+| Add to Bag Button | Click | The Page gets refreshed and a short toast message pops up saying: "Added Product Name to your bag" | ✔ |
+| Heart Icon | Click | The Products is added to the Wishlist, a short toast message pops up saying: "Product Name added to Wishlist!" | ✔ |
+| Sign in to review Link/Non-Authenticated User | Click | User gets redirected to the Sign In Page | ✔ |
+| Submit Review Button/Review Form Invalid | Click | A short field message pops up saying: "Please fill out this field" | ✔ |
+| Submit Review Button/Review Form Valid | Click | A short toast message pops up saying: "Thank you! Review submitted." | ✔ |
+| Update Review Button/Review Form Invalid | Click | A short field message pops up saying: "Please fill out this field" | ✔ |
+| Update Review Button/Review Form Valid | Click | A short toast message pops up saying: "Thanks! Your review has been updated." | ✔ |
+
+* Our Blog:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Our Blog | Click | User gets redirected to the Our Blog page | ✔ |
+| Our Blog/Read More button | Click | User gets redirected to the article page | ✔ |
+| Our Blog/Read More button/Go Back button | Click | User gets redirected to the main Blog page | ✔ |
+| Our Blog/Read More button/Submit Comment button | Click | User adds a comment underneath the article page and the page gets refreshed | ✔ |
+| Our Blog/Read More button/Submit Comment button/Delete button | Click | User deletes his own comment and the page gets refreshed | ✔ |
+
+* Newsletter:
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Newsletter | Click | User gets redirected to the Newsletter page | ✔ |
+| Subscribe Now Button Invalid | Click | A short field message pops up saying: "Please fill out this field" | ✔ |
+| Subscribe Now Button Invalid/Same Email address | Click | A short field message pops up when using an email address that has been used before saying: "Subscriber with this Email already exists." | ✔ |
+| Subscribe Now Button Valid | Click | A short toast message pops up saying: "You have successfully subscribed" | ✔ |
+
+* Privacy Policy: 
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Privacy Policy Page/Back to Home Page Button | Click | User gets redirected to the Home Page | ✔ |
+| Privacy Policy Page/Privacy Policy Generator Link | Click | User gets redirected to the: https://www.termsfeed.com/privacy-policy-generator/ | ✔ |
+| Privacy Policy/TermsFeed Cookies website Link | Click | User gets redirected to the: https://www.termsfeed.com/blog/cookies/#What_Are_Cookies | ✔ |
+| Privacy Policy Page/https://witty-devices-91c5d0b3a8c2.herokuapp.com/ Link | Click | User gets redirected to the Home Page of Witty Devices site | ✔ |
+
+* Returns and Refunds: 
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Returns and Refunds Page/Back to Home Page Button | Click | User gets redirected to the Home Page | ✔ |
+| Returns and Refunds Page/Returns and Refunds Generator Link | Click | User gets redirected to the: https://www.termsfeed.com/return-refund-policy-generator/ | ✔ |
+| Returns and Refunds Page/https://witty-devices-91c5d0b3a8c2.herokuapp.com/ Link | Click | User gets redirected to the Home Page of Witty Devices site | ✔ |
+
+* Terms and Conditions: 
+
+| Feature | Action             | Expected Result                 | Pass |
+| ----- | -----------------| ------------------------------| ---------- |
+| Terms and Conditions Page/Back to Home Page Button | Click | User gets redirected to the Home Page | ✔ |
+| Terms and Conditions Page/Terms and Conditions Generator Link | Click | User gets redirected to the: https://www.termsfeed.com/terms-conditions-generator/ | ✔ |
+| Terms and Conditions Page/https://witty-devices-91c5d0b3a8c2.herokuapp.com/ Link | Click | User gets redirected to the Home Page of Witty Devices site | ✔ |
 
 * All the links, buttons and forms work as expected, with no errors.
 
