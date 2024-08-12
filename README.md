@@ -7,7 +7,7 @@
 
 Welcome to Witty Devices, your trusted source for the latest in smart home technology and security solutions. We offer a carefully curated range of products that combine innovation with convenience, helping you create a safer, smarter, and more efficient living space. Whether you're looking to upgrade your home security with intelligent cameras and alarms or seeking advanced automation systems to simplify daily tasks, Witty Devices has everything you need to transform your home into a modern, connected sanctuary. Explore our collection and experience the future of home technology today.
 
-![Website responsiveness]((https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/amiresponsive.jpg?raw=true))
+![Website responsiveness](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/amiresponsive.jpg?raw=true)
 
 ## Table of contents
 
@@ -754,6 +754,238 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 ## **Deployment**
 
+### Making a Local Clone to create project
+
+- Find the GitHub Repository.
+- Click the green **Code** button.
+- Copy the **.git link** shown.
+- In Gitpod, change the directory to the location you would like the cloned directory to be located.
+- Type **git clone**, and paste the link you copied in step 3.
+- Press Enter to have the local clone created.
+
+
+A live version of the site is deployed to [Heroku](https://www.heroku.com/) and can be found here: [Witty Devices](https://witty-devices-91c5d0b3a8c2.herokuapp.com/).
+
+### PostgreSQL database from Code Institute
+
+- ElephantSQL free database is shutting down, so I went with the database Code Institute provided for the students.
+- To make the database for the project, the steps are next:
+    - First go to [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/), enter your email address and click submit.
+
+    - Your database will be generated automatically and you will receive an email with all the information about your database.
+
+    - Within the email, you will have a link to the dashboard of the created database. Here you can see all of the needed information about your database or delete them if you'd like to. After you click the **Info** button, a list with all the needed information will pop up.
+
+
+### Heroku Deployment
+
+#### Preparation
+
+- Before the deployment, the following steps were taken to prepare the application for the deployment on Heroku:
+
+- The setting **DEBUG** in the settings.py has to be set to **FALSE**. 
+- It was achieved by the next lines:
+- Within **settings.py**:
+    ````
+      import os
+      import dj_database_url
+      if os.path.isfile('env.py'):
+          import env
+    ````
+    ````
+      DEBUG = 'DEVELOPMENT' in os.environ
+    ````
+- Within **env.py**:
+    ````
+      os.environ["DEVELOPMENT"] = 'False'
+    ````
+- Allow Heroku as host: In **settings.py** add **ALLOWED_HOSTS = ['app-name.herokuapp.com', 'localhost']**
+- All the dependencies were stored in the requirements.txt file with the command **pip3 freeze --local > requirements.txt**.
+- The start command for the application **web: gunicorn witty_devices.wsgi:application** was stored in a Procfile.
+
+#### Deployment
+
+* Go to [Heroku](https://id.heroku.com/login), create account if you don't have and log in.
+
+* Head to the dashboard and click **New**, then **Create new app**
+
+* Give your app a name and select the region. After that click on **Create app**.
+
+* Go to the **Settings** tab which you can find at the top of the Heroku page and under the **Config Vars** set your Key/Value Pairs.
+
+    ````
+    ENVIRONMENT=
+    SECRET_KEY=
+    DATABASE_URL=
+    AWS_ACCESS_KEY_ID=
+    AWS_SECRET_ACCESS_KEY=
+    EMAIL_HOST_USER=
+    EMAIL_HOST_PASS=
+    STRIPE_PUBLIC_KEY=
+    STRIPE_SECRET_KEY=
+    STRIPE_WH_SECRET=
+    USE_AWS=
+    ````
+
+* Go to the **Deployment** tab at the top of the Heroku page and under **Deployment method** click on **GitHub**. After that, under the **Deployment method** section there is the **Connect to GitHub** section where you need to find your repository and then click **Connect**. Under the **Connect to GitHub** section you can find the **Automatic deploys** section, and here click on **Enable Automatic Deploys**.
+
+### Amazon - AWS Hosting
+
+- For this project I used [AWS](https://aws.amazon.com) to store media and static files online.
+
+- Create an AWS account and log in. Once you are on the **AWS Management Console** page, follow these next steps:
+
+#### S3 Bucket
+
+- Search for **S3**.
+- Create a new bucket, give it a name (matching your Heroku app name) and choose the region closest to you.
+- Uncheck **Block all public access**, and acknowledge that the bucket will be public (required for it to work on Heroku).
+- From **Object Ownership**, make sure to have **ACLs enabled**, and **Bucket owner preferred** selected.
+- From the **Properties** tab, turn on static website hosting then click **Save**.
+- From the **Permissions** tab, paste in the following CORS configuration:
+
+	```shell
+	[
+  {
+      "AllowedHeaders": [
+          "Authorization"
+      ],
+      "AllowedMethods": [
+          "GET"
+      ],
+      "AllowedOrigins": [
+          "*"
+      ],
+      "ExposeHeaders": []
+  }
+]
+	```
+
+- Copy your **ARN** string.
+- From the **Bucket Policy** tab, select the **Policy Generator** link, and use the following steps:
+	- Policy Type: **S3 Bucket Policy**
+	- Effect: **Allow**
+	- Principal: `*`
+	- Actions: **GetObject**
+	- Amazon Resource Name (ARN): **paste-your-ARN-here**
+	- Click `Add Statement`
+	- Click `Generate Policy`
+	- Copy the entire Policy, and paste it into the **Bucket Policy Editor**
+
+		```shell
+		{
+			"Version": "2012-10-17",
+      "Id": "Policy111111111111",
+      "Statement": [
+				{
+					"Sid": "Stmt11111111111",
+          "Effect": "Allow",
+          "Principal": "*",
+          "Action": "s3:GetObject",
+          "Resource": "arn:aws:s3:::bucket-name/*"
+				}
+			]
+		}
+		```
+
+	- Before you click "Save", add `/*` to the end of the Resource key in the Bucket Policy Editor (like above).
+	- Click `Save`.
+- From the **Access Control List (ACL)** section, click **Edit** and enable **List** for **Everyone (public access)**, and accept the warning box.
+	- If the edit button is disabled, you need to change the **Object Ownership** section above to **ACLs enabled**.
+
+
+#### IAM
+
+From the AWS Services Menu, search for and open **IAM** (Identity and Access Management).
+Once on the IAM page, follow these steps:
+
+- From **User Groups**, click **Create New Group**.
+- Suggested Name: **manage-witty-devices** (manage + the project name)
+- Tags are optional, but you must click it to get to the **review policy** page.
+- From **User Groups**, select your newly created group, and go to the **Permissions** tab.
+- Open the **Add Permissions** dropdown, and click **Attach Policies**.
+- Select the policy, then click **Add Permissions** at the bottom when finished.
+- From the **JSON** tab, select the **Import Managed Policy** link.
+	- Search for **S3**, select the **AmazonS3FullAccess** policy, and then **Import**.
+	- You'll need your ARN from the S3 Bucket copied again, which is pasted into "Resources" key on the Policy.
+
+		```shell
+		{
+			"Version": "2012-10-17",
+			"Statement": [
+				{
+					"Effect": "Allow",
+					"Action": "s3:*",
+					"Resource": [
+						"arn:aws:s3:::bucket-name",
+						"arn:aws:s3:::bucket-name/*"
+					]
+				}
+			]
+		}
+		```
+	
+	- Click **Review Policy**.
+	- Suggested Name: **witty-device-policy** (site name-policy)
+	- Click **Create Policy**.
+- From **User Groups**, click your **manage-witty-devices**.
+- Click **Attach Policy**.
+- Search for the policy you've just created ("witty-devices-policy") and select it, then **Attach Policy**.
+- From **User Groups**, click **Add User**.
+	- Suggested Name: **wittydevices-staticfiles-user** (site name + staticfiles-user)
+- For "Select AWS Access Type", select **Programmatic Access**.
+- Select the group to add your new user to: **manage-wity-devices**
+- Tags are optional, but you must click it to get to the **review user** page.
+- Click **Create User** once done.
+- You should see a button to **Download .csv**, so click it to save a copy on your system.
+	- **IMPORTANT**: once you pass this page, you cannot come back to download it again, so do it immediately!
+	- This contains the user's **Access key ID** and **Secret access key**.
+	- **AWS_ACCESS_KEY_ID** = **Access key ID**
+	- **AWS_SECRET_ACCESS_KEY** = **Secret access key**
+
+#### Final Setup
+
+- The **DISABLE_COLLECTSTATIC** within Heroku Config Vars can be removed now, as AWS will handle the static files from now on.
+- Within you **S3** Bucket, create a new folder called **media**.
+- Select any existing media images for your project to prepare them for being uploaded into the new folder.
+- Under **Manage Public Permissions**, select **Grant public read access to this object(s)**.
+- No further settings are required, so click **Upload**.
+
+### Stripe
+
+- Stripe's API is used to handle payments. To setup Stripe follow next steps:
+
+  - Create if you don't have and Log In to a Stripe account.
+  - In the Stripe Dashboard -> **Get your test API keys.**
+  - Add your **STRIPE_PUBLIC_KEY** and **STRIPE_SECRET_KEY** to your env.py, connect to your settings.py using your environment variables and then enter them into your project's Heroku Config Vars.
+  - Including Stripe's Webhooks creates a failsafe if a customer exits the page during payment authorisation. In Stripe's Dashboard -> **Developers** -> **Webhooks** -> **Add Endpoint**: 'herokuapp url/checkout/wh'
+  -  Choose **Retrieve all events** -> **Add Endpoint**.
+  -  Add new key **STRIPE_WH_SECRET** to env.py, settings.py and Heroku Config Vars as before.
+
+
+### Google Mail API
+
+- Setup a Gmail Account that will be used to hold and store the emails for your project.
+- Log In and navigate to **Settings** -> **See All Settings** -> **Accounts and Import** -> **Other Google Account settings**
+- Activate 2-Step Verification
+- Once verified access **App Passwords** -> enter a name for the password.(e.g. Django-Project Name)
+- Click **Create** -> copy the 16 digit password that is generated.
+- In your **settings.py** add the following Email Settings:
+````
+# Sending Emails
+if 'DEVELOPMENT' in os.environ:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    DEFAULT_FROM_EMAIL = 'wittydevices@gmail.com'
+else:
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_USE_TLS = True
+    EMAIL_PORT = 587
+    EMAIL_HOST = 'smtp.gmail.com'
+    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+````  
+- Add `EMAIL_HOST_PASS`, `EMAIL_HOST_USER` to your Heroku Config Vars.
 
 
 ## **Credits**
@@ -769,4 +1001,7 @@ Markdown Cheatsheet from [Adam Pritchard](https://github.com/adam-p/markdown-her
 ### **Content:**
 
 - **Background** photo by <a href="https://unsplash.com/@jakubzerdzicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jakub Żerdzicki</a> on <a href="https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-table-_0T3hgs3lig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
+
+- Descriptions of products were created by using [ChatGPT](https://chatgpt.com/)
+
+- Images of products have either been created by using AI tools or taken from [Temu](https://temu.com), but modified as to not have any copyright infringement.
