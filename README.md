@@ -128,7 +128,7 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
 ### **Design:**
  * The database model or ERD(entity relationship diagram) was created to visualise the connection between models within the project. The diagram was created using Drawsql.app, here is the link to the diagram: [https://drawsql.app/teams/razvan-1/diagrams/witty-devices]
 
-![Schema design]()
+![Schema design](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/schema.jpeg?raw=true)
 
 ### **Custom Models:**
 
@@ -221,18 +221,18 @@ The newsletter section's functionality is to allow users to input, in a form, th
 
  The color palette was created using [https://coolors.co/]
 
-![Color Palette]()
+![Color Palette](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/palette.jpeg?raw=true)
 
 
 I also created this color contrast grid using [https://contrast-grid.eightshapes.com/](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23000000%2C%20Black%0D%0A%23212529%0D%0A%23FFFFFF%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp), to check the contrast scored and ensure the text remains visible across the entire website and that the site is accessible to everyone.
 
-![Color Contrast Grid]()
+![Color Contrast Grid](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/contrastgrid.jpeg?raw=true)
 
 ### **Typography:**
 
 I decided on using a Google font named Barlow. It features rounded, slightly condensed letterforms with a clean, geometric aesthetic. Barlow’s design is inspired by the visual style of Californian road signs, combining functionality with a friendly, approachable look.
 
-![Typography]()
+![Typography](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/font.jpeg?raw=true)
 
 ### **Technologies Used:**
 
@@ -293,66 +293,121 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
 * Contains links to the Home, All Products, Smart Security, Smart Home Tech, Our Blog, Newsletter, Account(which is togglable and opens links to Join and Sign In) and Shopping Bag for quick navigation around the website. 
 * On mobile the navbar transforms into a togglable hamburger button.
 
-![Header]()
+![Header Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/header-desktop.jpeg?raw=true)
+
+![Header Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/header-mobile.jpeg?raw=true)
 
 ## **Footer**
 
 * Placed at the bottom of the page, it includes links to Our Policies, Contact Details as well as links to all social media accounts.
 * The footer includes a copyright notice at the bottom and has the same dark background as the promotional banner under the navbar. The footer also includes a function that automatically updates the date.
 
-![Footer]()
+![Footer Destkop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/footer-desktop.jpeg?raw=true)
+
+![Footer Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/footer-mobile.jpeg?raw=true)
 
 ## **Individual Page Content features**
 
 ### **Home Page Content:**
-* 
+
+* The homepage contains the background and a button, a short heading and a Shop Now button that takes you to the All Products page.
   
-![Home section1]()
+![Home Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/home-desktop.jpeg?raw=true)
+
+![Home Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/home-mobile.jpeg?raw=true)
 
 ### **All Products Page Content:**
 
+* The All Products page contains all the products from both sections, the smart security products and the smart home tech products.
+
+![All Products Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/allproducts-desktop.jpeg?raw=true)
 
 ### **All Smart Security Page Content:**
 
+* The All Smart Security Page contains products from the Smart CCTV Cameras, Smart Doorbells and Smart Baby Monitors pages. The page includes also 3 buttons at the top of the page to allow the user to filter by which category they want.
+
+![All Smart Security Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/security-desktop.jpeg?raw=true)
 
 ### **All Smart Home Tech Page Content:**
 
+* The All Smart Security Page contains products from the Smart Heating, Smart Lighting, Smart Plugs and Smart Speakers pages. The page includes also 4 buttons at the top of the page to allow the user to filter by which category they want.
+
+![All Smart Home Tech Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/hometech-desktop.jpeg?raw=true)
 
 ### **Our Blog Page Content:**
 
+* The Our Blog page contains multiple articles posted by the admin of the website. Every article has just a short preview and a button that the user can press to be redirected to the full article. On the full article page, the user can leave comments as well as delete their own comment.
+
+![Our Blog](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/blog.jpeg?raw=true)
 
 ### **Newsletter Page Content:**
 
+* The Newsletter page contains a form that users can fill to subscribe to the website's newsletter. The form has a field for name and another field for users to input their email address, as well as a subscribe button.
+
+![Newsletter](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/newsletter.jpeg?raw=true)
 
 ### **Checkout Page Content:**
 
+* The Checkout page contains a form that users can fill with their details(name and email address), delivery details(phone number, street, town or city, county, country and postcode) and payment information. The page also displays the order summary where the users can see the products they added to their shopping bag, total price, delivery price and grand total. At the bottom of the page there are 2 buttons, one takes the user back to the shopping bag to update it and the other button completes the order.
+
+![Checkout](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/checkout.jpeg?raw=true)
 
 ### **Account Page Content:**
+
 * If the user is not logged in, the page will not allow you to go to the account page. When the user is logged in, the page displays a form where they can update their default delivery info, and a section where they can see their previous orders.
   
-![Account section]()
+![Account section](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/account.jpeg?raw=true)
 
 
 ### **Sign In Page Content:**
+
 * The page displays a form for the user to login.
 
-![Sign In]()
+![Sign In Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/login-desktop.jpeg?raw=true)
+
+![Sign In Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/login-mobile.jpeg?raw=true)
 
 ### **Join Page Content:**
+
 * The page displays a form for the user to register a new account.
 
-![Join]()
+![Join Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/signup-desktop.jpeg?raw=true)
 
+![Join Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/signup-mobile.jpeg?raw=true)
+
+### **Privacy Policy Page Content:**
+
+* The Privacy Policy was generated from Termsfeed and sets out how Witty Devices collects, stores and manages the customer's data. The Privacy Policy page can be accessed from anywhere on the site via the footer area, Our Policies column.
+
+* Witty Devices is a fictitious ecommerce store created for educational purposes only. Witty Devices is not a real store and the privacy policy is not legally binding.
+
+### **Refunds and Returns Page Content:**
+
+* The Refunds and Returns policy was generated from Termsfeed and sets out how Witty Devices collects, stores and manages the customer's data. Refunds and Returns page can be accessed from anywhere on the site via the footer area, Our Policies column.
+
+* Witty Devices is a fictitious ecommerce store created for educational purposes only. Witty Devices is not a real store and the Refunds and Returns policy is not legally binding.
+
+### **Terms and Conditions Page Content:**
+
+* The Terms and Conditions policy was generated from Termsfeed and sets out how Witty Devices collects, stores and manages the customer's data. The Terms and Conditions page can be accessed from anywhere on the site via the footer area, Our Policies column.
+
+* Witty Devices is a fictitious ecommerce store created for educational purposes only. Witty Devices is not a real store and the Terms and Conditions policy is not legally binding.
 
 ### **404 Error Page Content**
+
 * The page displays a message to inform the user that the page that they were looking for is unavailable.
 * Under the message displayed, there is a button that sends the user back to the Home page.
 
-![404 Error]()
+![404 Error](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/404error.jpeg?raw=true)
 
 
 ## **Future-Enhancements**
 
+* Add special offers and discounted items.
+* Send out a real newsletter email to users that subscribed.
+* Allow users to add to cart straight from the products page, not having to click on each individual product and then add to cart.
+* Allow users to register/login with a social media account.
+* Allow users to leave reviews on the product page.
 
 ***
 ## **Testing Phase**
