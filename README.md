@@ -7,7 +7,7 @@
 
 Welcome to Witty Devices, your trusted source for the latest in smart home technology and security solutions. We offer a carefully curated range of products that combine innovation with convenience, helping you create a safer, smarter, and more efficient living space. Whether you're looking to upgrade your home security with intelligent cameras and alarms or seeking advanced automation systems to simplify daily tasks, Witty Devices has everything you need to transform your home into a modern, connected sanctuary. Explore our collection and experience the future of home technology today.
 
-![Website responsiveness]()
+![Website responsiveness]((https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/amiresponsive.jpg?raw=true))
 
 ## Table of contents
 
@@ -46,7 +46,7 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
     - [**Refunds and Returns Page Content**](#refunds-and-returns-page-content)
     - [**Terms and Conditions Page Content**](#terms-and-conditions-page-content)
     - [**404 Error Page Content**](#404-error-page-content)
-  - [**Future-Enhancements**](#future-enhancements)
+  - [**Future Enhancements**](#future-enhancements)
   - [**Testing Phase**](#testing-phase)
     - [**Testing During Development**](#testing-during-development)
       - [**Manual Testing**](#manual-testing)
@@ -401,7 +401,7 @@ I decided on using a Google font named Barlow. It features rounded, slightly con
 ![404 Error](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/404error.jpg?raw=true)
 
 
-## **Future-Enhancements**
+## **Future Enhancements**
 
 * Add special offers and discounted items.
 * Send out a real newsletter email to users that subscribed.
@@ -479,7 +479,53 @@ Automated testing can be a powerful tool for catching bugs early on and ensuring
 
 During my manual testing, I have tested every user story, to ensure that the needs of the users are met.
 
+- As a user of the website, I want to easily navigate through Witty Devices' selection of smart security products, so I can quickly find the best system to protect my home and purchase it with confidence.
 
+  * All users can easily access the smart security products from the navbar, by clicking on the smart security option and the navigating to all smart security products: 
+
+  ![Story1](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/story1.jpg?raw=true)
+
+![All Smart Security Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/security-desktop.jpg?raw=true)
+
+- As a user of the website, I want to see detailed product descriptions, so I can make informed decisions about which smart home devices will best suit my needs.
+
+  * All users are able to see detailed product descriptions after clicking on a product from the category they are interested in:
+
+  ![Story2](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/story2.jpg?raw=true)
+
+- As a user of the website, I want a seamless and secure checkout process, so I can complete my purchases without hassle and trust that my payment information is safe.
+
+  * The checkout process has been simplified, so that all users can easily checkout in a secure manner. The Checkout page contains a form that users can fill with their details(name and email address), delivery details(phone number, street, town or city, county, country and postcode) and payment information. The page also displays the order summary where the users can see the products they added to their shopping bag, total price, delivery price and grand total.
+
+  ![Story3](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/checkout.jpg?raw=true)
+
+- As a user of the website, I want to find product recommendations and guides, so I can discover the latest smart home trends.
+
+  * All users can find product recommendations or guides in the Our Blog section of the website.
+
+  ![Our Blog](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/blog.jpg?raw=true)
+
+  ![Story4](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/story4.jpg?raw=true)
+
+- As a user of the website, I want to see a clean, responsive design that works well on both desktop and mobile, so I can browse and shop for smart devices wherever I am.
+
+  * The website has been designed with a responsive mobile first mindset, so that it works perfectly on both mobile devices and desktops.
+
+  ![Story5](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/amiresponsive.jpg?raw=true)
+
+- As a user of the website, I want to filter products by features, price, and compatibility, so I can efficiently find exactly what I need without sifting through irrelevant items.
+
+  * In each products page, the users can find a sort button so that they can sort by name, price, category and rating, both ascending and descending. Users also can select from the navbar the option to show all products by category, price or rating.
+
+  ![Story6a](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/story6a.jpg?raw=true)
+
+  ![Story6b](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/story6b.jpg?raw=true)
+
+- As a user of the website, I want to be able to subscribe to a newsletter so I can be informed whenever new products come in stock.
+
+  * All users are able to subscribe to Witty Devices' newsletter by accessing the Newsletter section of the website from the navbar and filling in the form to subscribe.
+
+  ![Story7](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/readme/newsletter.jpg?raw=true)
 
 #### **Functionality testing**
 
@@ -678,28 +724,32 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 - All pages return no error.
 
+![HTML results](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/HTMLvalidator.jpg?raw=true)
+
 #### ***CSS*** - <https://jigsaw.w3.org/css-validator/>
 
 - All pages tested, no issues found.
+
+![CSS results](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/CSSvalidator.jpg?raw=true)
 
 ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
 
 #### ***JSHint*** - <https://jshint.com/>
 
-![JSHint results]()
+![JSHint results](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/jshint.jpg?raw=true)
 
 #### ***Python linter*** - <https://pep8ci.herokuapp.com/>
 
-![Python linter results]()
+![Python linter results](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/PYTHONvalidator.jpg?raw=true)
 
 #### **PageSpeed Insights**
 
 - All PageSpeed Insights tests have been made while in incognito mode to avoid any browser extensions interference.
 - I have asked several people to run these tests from their own devices as well, and they were getting similar scores.
 
-![PageSpeed Insights Desktop]()
+![PageSpeed Insights Desktop](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/PageSpeedDesktop.jpg?raw=true)
 
-![PageSpeed Insights Mobile]()
+![PageSpeed Insights Mobile](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/PageSpeedMobile.jpg?raw=true)
 ***
 
 ## **Deployment**
