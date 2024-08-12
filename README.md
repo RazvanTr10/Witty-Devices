@@ -51,7 +51,8 @@ Welcome to Witty Devices, your trusted source for the latest in smart home techn
     - [**Testing During Development**](#testing-during-development)
       - [**Manual Testing**](#manual-testing)
       - [**User Story Testing**](#user-story-testing)
-      - [**Functionality testing**](#functionality-testing)
+      - [**Functionality Testing**](#functionality-testing)
+      - [**Solved and Known Bugs**](#bugs)
     - [**Testing After Development**](#testing-after-development)
       - [**Validators**](#validators)
       - [***HTML*** - https://validator.w3.org/nu/](#html---httpsvalidatorw3orgnu)
@@ -716,6 +717,22 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 * All the links, buttons and forms work as expected, with no errors.
 
+#### **Solved and Known Bugs:**
+
+* Solved bugs: 
+
+    - An early bug encountered was when opening a blog article, it would not appear fully, but this was immediately fixed with some custom css.
+
+    ![Solved Bug](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/bug1.jpg?raw=true)
+
+
+* Known bugs:
+
+    - An existing bug that I am still working on is with the footer not sticking to the bottom on some pages on the desktop view(on mobile it still looks fine). The affected pages are the 404 page and the Empty Shopping Bag page.
+
+    ![Known Bug](https://github.com/RazvanTr10/Witty-Devices/blob/main/documentation/testing/bug2.jpg?raw=true)
+
+
 ### **Testing After Development**
 
 #### **Validators**
@@ -844,7 +861,7 @@ A live version of the site is deployed to [Heroku](https://www.heroku.com/) and 
 - From the **Properties** tab, turn on static website hosting then click **Save**.
 - From the **Permissions** tab, paste in the following CORS configuration:
 
-	```shell
+````shell
 	[
   {
       "AllowedHeaders": [
@@ -859,7 +876,7 @@ A live version of the site is deployed to [Heroku](https://www.heroku.com/) and 
       "ExposeHeaders": []
   }
 ]
-	```
+````
 
 - Copy your **ARN** string.
 - From the **Bucket Policy** tab, select the **Policy Generator** link, and use the following steps:
